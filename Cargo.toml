@@ -4,9 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-burn = "0.4"
+burn = { version = "0.4", features = ["experimental-named-tensor"] }
 burn-tch = "0.4"
 burn-autodiff = "0.4"
+burn-ndarray = "0.4"
 
 # Serialization
 serde = { version = "1.0", features = ["derive"] }
