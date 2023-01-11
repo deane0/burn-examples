@@ -1,6 +1,7 @@
 use burn_autodiff::ADBackendDecorator;
 use burn_tch::{TchBackend, TchDevice};
-use mnist::training;
+
+use burn_examples::training;
 
 fn main() {
     let device = TchDevice::Cpu;

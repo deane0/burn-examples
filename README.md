@@ -1,1 +1,1 @@
-# MNIST
+# Burn Examples

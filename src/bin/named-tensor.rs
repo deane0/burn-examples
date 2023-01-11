@@ -1,3 +1,5 @@
+use burn_examples::named_tensor;
+
 fn main() {
-    mnist::named_tensor::run::<burn_ndarray::NdArrayBackend<f32>>();
+    named_tensor::run::<burn_ndarray::NdArrayBackend<f32>>();
 }
